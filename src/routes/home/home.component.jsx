@@ -32,8 +32,8 @@ const Home = () => {
 
     return (
         <div>
-            <Outlet/>  {/*  where should child component */}
             <Directory categories={categories}/>
+            <Outlet/>  {/*  where should child component */}
         </div>
     );
 }
