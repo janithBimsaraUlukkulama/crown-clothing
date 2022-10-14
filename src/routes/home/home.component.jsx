@@ -1,13 +1,14 @@
-import Directory from "../../components/directory/directory.component";
-import {Outlet} from "react-router";
+import { Outlet } from 'react-router-dom';
+
+import Directory from '../../components/directory/directory.component';
 
 const Home = () => {
-    return (
-        <div>
-            <Directory/>
-            <Outlet/>  {/*  where should child component */}
-        </div>
-    );
-}
+  return (
+    <div>
+      <Directory />
+      <Outlet />
+    </div>
+  );
+};
 
 export default Home;
